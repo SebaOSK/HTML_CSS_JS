@@ -1,0 +1,82 @@
+* {
+    font-family: Papyrus, sans-serif;
+}
+
+h1 {
+    color:blue;
+}
+
+#input-form{
+    color:blueviolet;
+}
+
+.inputLabel {
+    display : inline-block;
+    width : 10%;
+   
+}
+#postButton {
+    margin-left : 3%;
+}
+
+#records-table {
+    border-collapse:collapse;
+    width:80%;
+    margin:auto;
+}
+
+thead {
+    border : 1px solid black;
+    color : rgb(211, 73, 23);
+}
+
+tbody {
+    color:rgb(192, 115, 0);
+}
+
+td {
+    border: 1px solid black
+}
+
+.id-column {
+    width:5%;
+}
+
+th {
+    width:30%;
+}
+
+#dataContainer {
+    text-align: center;
+}
+#getButton {
+    margin-top:6px;
+}
+#deleteContainer {
+    display:flexbox;
+}
+
+#getButton {
+    margin-top:6px;
+}
+
+#deleteButton {
+    display:block;
+    margin-bottom: 10px;;
+}
+
+.flexContainer {
+    display : flex;
+}
+
+#formContainer {
+
+        flex-basis: 75%;
+        height: 100%;
+        margin: 5px;    
+} 
+#deleteContainer {
+    flex-basis: 35%;
+    height: 100%;
+    margin: 10px; 
+}
